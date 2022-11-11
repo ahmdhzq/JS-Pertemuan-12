@@ -44,7 +44,7 @@ btnSubmit.onclick = (d) => {
     let selectJurusan = jurusan.options[jurusan.selectedIndex].text
 
     if (cek == true) {
-        hasil.innerHTML = "<h3> Selamat data anda telah diterima oleh admin <br></h3>" + "Nama : " + valueNama + "<br>Email : " + valueEmail + "<br>No. Telp : " + valueTelp + "<br>TTL : " + valueTempat + ", " + valueTglLahir + "<br>Alamat : " + valueAlamat + "<br>Nama Orang Tua/Wali : " + valueOrtu +"<br>Jenis Kelamin" + valueJk + "<br>Jurusan : " + selectJurusan
+        hasil.innerHTML = "<h3> Selamat data anda telah diterima oleh admin <br></h3>" + "Nama : " + valueNama + "<br>Email : " + valueEmail + "<br>No. Telp : " + valueTelp + "<br>TTL : " + valueTempat + ", " + valueTglLahir + "<br>Alamat : " + valueAlamat + "<br>Nama Orang Tua/Wali : " + valueOrtu +"<br>Jenis Kelamin : " + valueJk + "<br>Jurusan : " + selectJurusan
     }
 }
 
