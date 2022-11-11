@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+body {
+    font-family: Poppins;
+    display: flex;
+    
+}
+.container {
+    border: 1px solid #40d4ee;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: #40d4ee;
+    border-radius: 15px;
+    display: flex;
+    flex-basis: 40%;
+}
+form{
+    width: 90%;
+}
+.logo{
+    border: 1px solid #fff;
+    border-radius: 7px;
+    background-color: #fff;
+    width: 220px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.logo .petik{
+    height: 60px;
+}
+.garis{
+    border: 1px solid #35b5e4;
+    height: 60px;
+    width: 3px;
+    background-color: #35b5e4;
+    margin: 0 10px;
+}
+.logo .ybm {
+    height: 60px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: #30a5cf;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+button:hover{
+    background-color: #3293b6;
+    transition: .3s;
+}
+.hasilInp {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+    margin-top: 5vh;
+}

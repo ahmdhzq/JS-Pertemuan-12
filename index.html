@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Pendaftaran Mahasantri</title>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center flex-column align-items-center ">
+        <div class="logo">
+            <img class="petik" src="./assets/petik.png" alt="">
+            <div class="garis"></div>
+            <img class="ybm" src="./assets/ybm.png" alt="">
+        </div>
+        <form class="form m-auto d-flex align-items-center flex-column" name="daftar">
+            <h1 class="text text-center fs-3 mb-4">Form Pendaftaran Mahasantri</h1>
+            <!-- nama -->
+            <label for="nama" class="ms-2 w-75"><p class="ms-2 mb-0">Masukan Nama Lengkap</p>
+                <input class="form-control m-2" name="nama" type="text" placeholder="Masukkan Nama Lengkap">
+            </label>
+
+            <!-- email -->
+            <label for="email" class="ms-2 mt-2 w-75"><p class="ms-2 mb-0">Masukan Email</p>
+                <input class="form-control m-2" type="email" name="email" placeholder="Masukkan Alamat Email">
+            </label>
+
+            <!-- Telp -->
+            <label for="telp" class="ms-2 mt-2 w-75"><p class="ms-2 mb-0">Masukan No. Telp</p>
+                <input class="form-control m-2" type="tel" name="telp" placeholder="Masukkan No. Telp">
+            </label>
+
+            <!-- tempat -->
+            <div class="col-2 mt-2 w-75 d-flex justify-content-between align-items-center">
+                <label for="tempat" class="ms-2 w-50"><p class="ms-2 mb-0">Tempat Lahir</p>
+                    <input class="form-control m-2" type="text" name="tempat" placeholder="Masukkan Tempat Lahir">
+                </label>
+                <label for="tglLahir"><p class="ms-2 mb-0">Tanggal Lahir</p>
+                    <input class="form-control m-2" type="date" name="tglLahir">
+                </label>
+            </div>
+
+            <!-- alamat -->
+            <label for="alamat" class="ms-3 mt-2 w-75"><p class="ms-2 mb-0">Alamat</p> 
+                <input class="form-control m-2" type="text" name="alamat" placeholder="Masukkan Alamat">
+            </label>
+
+            <!-- nama orang tua -->
+            <label for="ortu" class="ms-3 mt-2 w-75"><p class="ms-2 mb-0">Masukan Nama Orang Tua/Wali</p> 
+                <input class="form-control m-2" type="text" name="ortu" placeholder="Masukkan Nama Orang Tua/Wali">
+            </label>
+
+            <!-- jenis kelamin -->
+            <label for="jk" class="w-75 d-flex flex-row ms-4 mt-2">Jenis Kelamin
+                <p class="ms-3"><input type="radio" name="jk" value="Laki-Laki"> Laki-Laki</p>
+                <p class="ms-3"><input type="radio" name="jk" value="Perempuan"> Perempuan</p>
+            </label>
+
+            <!-- jurusan -->
+            <label for="jurusan" class="w-75 d-flex flex-column ms-4">Pilih Jurusan
+                <select class="form-select " name="jurusan">
+                    <option value="ppl">Pengembangan Perangkat Lunak</option>
+                    <option value="dm">Digital Marketing</option>
+                    <option value="tkj">Teknik Komputer Jaringan</option>
+                </select>
+            </label>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+    <div class="hasilInp">
+        <div id="hasil">
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
